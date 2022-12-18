@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Flashlight Turn On Sound Effect.ogg-38ba25cafb29f96eeae145e58705692c.oggstr"
+
+[deps]
+
+source_file="res://sounds/Flashlight Turn On Sound Effect.ogg"
+dest_files=[ "res://.import/Flashlight Turn On Sound Effect.ogg-38ba25cafb29f96eeae145e58705692c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
