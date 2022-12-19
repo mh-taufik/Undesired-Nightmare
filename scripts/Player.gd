@@ -52,6 +52,8 @@ func _process(delta):
 		
 		
 		
+		
+		
 	direction = direction.normalized()
 	move_and_slide(direction * SPEED * anim_blend)
 	
