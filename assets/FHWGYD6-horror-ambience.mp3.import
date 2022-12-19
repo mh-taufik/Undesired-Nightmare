@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/FHWGYD6-horror-ambience.mp3-8b8676a01d706584d385505f1c2e391e.mp3str"
+
+[deps]
+
+source_file="res://assets/FHWGYD6-horror-ambience.mp3"
+dest_files=[ "res://.import/FHWGYD6-horror-ambience.mp3-8b8676a01d706584d385505f1c2e391e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
