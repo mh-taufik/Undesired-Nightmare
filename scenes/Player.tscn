@@ -8,8 +8,8 @@
 [ext_resource path="res://sounds/walk.ogg" type="AudioStream" id=6]
 
 [sub_resource type="CylinderShape" id=1]
-radius = 0.5
 height = 2.5
+radius = 0.5
 
 [sub_resource type="Animation" id=2]
 resource_name = "idle"
@@ -135,8 +135,6 @@ transform = Transform( 0.999765, 0, 0.0216927, 0, 1, 0, -0.0216927, 0, 0.999765,
 transform = Transform( -0.992916, 0, -0.11882, -0.00634074, 0.998575, 0.0529862, 0.118651, 0.0533643, -0.991501, 0.587368, -0.451598, -0.60876 )
 cast_shadow = 0
 mesh = SubResource( 8 )
-material/0 = null
-material/1 = null
 
 [node name="SpotLight" type="SpotLight" parent="Flashlight/FlashLightMesh"]
 transform = Transform( -0.999998, -0.00192026, -1.54823e-05, -0.00192027, 0.99987, 0.0160466, -1.53184e-05, 0.0160466, -0.999871, -0.00569057, -0.000832319, 0.403029 )

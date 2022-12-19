@@ -28,6 +28,9 @@ func _input(event):
 		if event.scancode == KEY_F and event.pressed:
 			flashlight_light.visible = !flashlight_light.visible
 			flashlight_sound.play()
+			
+		
+				
 
 
 func _process(delta):
@@ -44,6 +47,14 @@ func _process(delta):
 		direction -= head_basis.x
 	elif Input.is_action_pressed("right"):
 		direction += head_basis.x
+	if Input.is_action_just_pressed("ambil"):
+		print("ambil")
+		
+		
+		
+		
+		
+		
 		
 	direction = direction.normalized()
 	move_and_slide(direction * SPEED * anim_blend)
